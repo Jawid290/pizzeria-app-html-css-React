@@ -1,12 +1,19 @@
 import React from 'react'
-import Logo from "../assets/pizzaLogo.png";
-
+import Logo from "../assets/pizzaLogo.png"
 
 function Navbar() {
   return (
     <div>
-      Hello world!
-     
+     <div calssName="leftSide">
+
+      <img src={Logo} />
+
+     </div>
+
+     <div calssName="rightSide"></div>
+
+
+
     </div>
   )
 }
